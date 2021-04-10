@@ -12,7 +12,7 @@ app.use(router) // Middleware do roteador da aplicação
 app.use(logRequest) // Middleware para log de requisições
 
 
-const port = 3333 // Porta
+const port = 3335 // Porta
 
 
 // Rota descrição
