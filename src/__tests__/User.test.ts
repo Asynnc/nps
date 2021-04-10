@@ -18,6 +18,7 @@ it("Should be able to create a new user", async () => {
     });
 
     expect(response.status).toBe(201);
+    expect(response.body).toHaveProperty("id")
   });
 
   it("Should not be able to create a user with exists email", async () => {
