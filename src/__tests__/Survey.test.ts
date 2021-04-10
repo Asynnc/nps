@@ -6,7 +6,6 @@ describe("Survey", () => {
 
   beforeAll( async () => {
     const connection =  await createConnection()
-    await connection.runMigrations()
   })
 
 it("Should be able to create a new survey", async () => {
@@ -23,8 +22,8 @@ it("Should be able to create a new survey", async () => {
   it("Should be able to get all surveys", async () => {
     await request(app).post("/surveys")
     .send({
-    title: "Title Example",
-    description: "Description Example"
+    title: "Title Example2",
+    description: "Description Example2"
     });
 
     const response = await request(app).get("/surveys")

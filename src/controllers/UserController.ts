@@ -6,7 +6,7 @@ import { UserRepository } from '../repositories/UsersRepository';
 class UserController {
 
   async create(request: Request, response: Response) {
-    const { name, email, password } = request.body
+    const { name, email } = request.body
 
     const usersRepository = getCustomRepository(UserRepository)
 
@@ -20,17 +20,12 @@ class UserController {
       })
     }
 
-    const hashedPassword = await hash(password, 8)
-
     const user = usersRepository.create({
       name: name.toUpperCase(),
-      email: email.toLowerCase(),
-      password: hashedPassword
+      email: email.toLowerCase()
     })
 
     await usersRepository.save(user);
-
-
     return response.status(201).json(user);
 
   }

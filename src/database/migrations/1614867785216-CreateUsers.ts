@@ -24,11 +24,6 @@ export class CreateUsers1614867785216 implements MigrationInterface {
                         comment: "Email do usuário"
                     },
                     {
-                        name: "password",
-                        type: "varchar",
-                        comment: "Senha do usuário"
-                    },
-                    {
                         name: "created_at",
                         type: "date",
                         default: "now()",
