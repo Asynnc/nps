@@ -41,8 +41,25 @@ The Net Promoter Score (NPS) is a customer loyalty metric created by Fred Heichh
         
 #### 3) Start your app
 
+run the follow command on your terminal
+```sh
+yarn dev
+```
 
-and much more...
+
+### When the request is made this is the default return
+<br/>
+
+<img src="https://i.imgur.com/7l0RhQT.jpg" alt="Example Insomnia">
+
+### So you will have this return 
+<br/>
+<img src="https://i.imgur.com/Ptduuvg.jpg" alt="Example Terminal Return">
+
+### acess and...
+<br/>
+<img src="https://i.imgur.com/HISZhhX.jpg" alt="Example Ethereal Return">
+
 
 ## :handshake: **Contributing**
 
