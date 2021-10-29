@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <img src="https://i.imgur.com/Y3HxgZg.png" alt="Animavita" height="300" width="300">
+  <img src="https://i.imgur.com/Q8H9MJR.png" alt="Animavita">
 
 </h1>
 
@@ -27,14 +27,14 @@ The Net Promoter Score (NPS) is a customer loyalty metric created by Fred Heichh
 
 #### 1) Clone & Install Dependencies on Linux/MacOS
 
-- 1.1) `git clone https://github.com/tonybsilvadev/nps`
+- 1.1) `git clone https://github.com/Asynnc/nps`
 - 1.2) `cd nps` - cd into your newly created project directory.
 - 1.3) Install NPM packages with `yarn install`
         **Note:** NPM has issues with React so `yarn` is recommended over `npm`.
         
 #### 2) Clone & Install Dependencies on Windows
 
-- 2.1) `git clone https://github.com/tonybsilvadev/nps`
+- 2.1) `git clone https://github.com/Asynnc/nps`
 - 2.2) Open the Windows Powershell with Admin permission
 - 2.3) `cd nps` - cd into your newly created project directory.
 - 2.4) Install NPM packages with `yarn install`
